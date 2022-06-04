@@ -1,0 +1,175 @@
+:root {
+    --background-color: #FFFFFF;
+    --accent-color: #2196F3;
+    --dark-background: #2F303A;
+    --tone-color: #F5F4FA;
+    --text-color: #212121;
+    --dark-text: #757575;
+    --hover-button: #188ce8;
+}
+
+
+body {background-color: var(--backgroud-color); 
+color: var(--text-color);
+font-family:'Roboto', Verdana, sans-serif;
+font-size: 14px;
+letter-spacing: 0.03em;} 
+    
+
+
+        /*-------------Site nav--------------------*/
+.link {text-decoration: none;}
+.list {list-style: none;}
+.page-header {background-color: var(--background-color);}
+.logo-header {color: var(--accent-color);
+font-family: 'Raleway', sans-serif;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;}
+.studio {color: var(--text-color);}
+.nav-link {color: var(--text-color);
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+.header-contact {color: var(--dark-text);
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+.nav-link:hover, .header-contact:hover {color: var(--accent-color); }
+.nav-link:focus, .header-contact:focus {
+color: var(--accent-color);}
+.site-nav .nav-link.current {color: var(--accent-color);
+}
+
+
+
+
+/*--------------------section_1----------------------*/
+.hero {background-color: var(--dark-background);}
+.hero-title {color: var(--background-color);
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;}
+.hero-button {color: var(--background-color); 
+background-color: var(--accent-color); cursor: pointer; 
+font-family: inherit;
+font-weight: 700;
+font-size: 16px;
+line-height: 1.87;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+ border-radius: 4px;
+padding: 10px 32px;
+min-width: 200px;
+height: 50px;
+border: none;}
+.hero-button:hover, .hero-button:focus {background-color: var(--hover-button);
+}
+
+
+
+
+/*----------------------section_2----------------------*/
+.visually-hidden {position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;}
+.features-heading {font-weight: 700; font-size: 14px;
+line-height: 1.14;
+text-transform: uppercase;}
+.features-paragraph {color: var(--dark-text);
+line-height: 1.71;}
+
+
+
+
+/*-------------------------section_3-----------------------*/
+
+.employment-title {font-weight: 700;
+font-size: 36px;
+line-height: 1.16;
+text-align: center;}
+
+
+
+
+/*---------------------------section_4----------------------*/
+.team {background-color: var(--tone-color);}
+.team-list { background-color: var(--background-color)}
+.team-header {font-weight: 700;
+font-size: 36px;
+line-height: 1.16;
+text-align: center;}
+.team-name {font-weight: 500;
+font-size: 16px;
+line-height: 1.18;
+text-align: center;}
+.team-paragraph {color: var(--dark-text);
+font-size: 16px;
+line-height: 1.18;
+text-align: center;}
+
+
+
+
+
+/*---------------------------portfolio---------------------*/
+
+.portfolio-title {color: var(--background-color);}
+.button-item {background-color: var(--tone-color); cursor: pointer; border: none; 
+font-family: inherit;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+text-align: center;
+letter-spacing: 0.03em;
+border-radius: 4px;
+padding: 6px 22px;
+display: inline-block;
+}
+.button-item:hover, .button-item:focus {color: var(--background-color); background-color: var(--accent-color)}
+ 
+.gallery-header {font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;}
+.gallery-paragraph {
+color: var(--dark-text);
+font-size: 16px;
+line-height: 1.87;}
+
+
+
+
+
+/*--------------------Footer----------------------------*/
+.footer {background-color: var(--dark-background);}
+.logo-footer {color: var(--accent-color); 
+font-family: 'Raleway', sans-serif;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;}
+.footer-studio {color: var(--background-color);}
+.footer-contacts {
+font-style: normal;
+
+line-height: 1.71;}
+.adress {color: var(--background-color)}
+.mail, .tel {color: rgba(255, 255, 255, 0.6);}
+.footer-contacts:hover, .footer-contacts:focus {color: var(--accent-color);}
+
+  *//
