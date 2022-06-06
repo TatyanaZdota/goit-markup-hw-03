@@ -61,9 +61,26 @@ img {
 }
 .contact {
   display: flex;
+  margin-left: auto;
 }
 .nav-list {
   display: flex;
+}
+.header .logo {
+  display: block;
+  padding: 24px 0 25px 0;
+  margin-right: 93px;
+}
+.logo {
+  color: var(--text-color);
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+}
+.web {
+  color: var(--accent-color);
 }
 .site-nav .item:not(:last-child) {
   margin-right: 50px;
@@ -72,20 +89,6 @@ img {
   margin-left: 50px;
 }
 
-.logo-header {
-  display: block;
-  padding-top: 24px;
-  padding-bottom: 25px;
-  margin-right: 93px;
-  color: var(--accent-color);
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-}
-.studio {
-  color: var(--text-color);
-}
 .nav-link {
   display: block;
   color: var(--text-color);
@@ -103,6 +106,7 @@ img {
   letter-spacing: 0.02em;
   padding-top: 32px;
   padding-bottom: 32px;
+  margin-left: auto;
 }
 .nav-link:hover,
 .header-contact:hover {
@@ -122,6 +126,7 @@ img {
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
+  letter-spacing: 0.06em;
 }
 .hero-title {
   color: var(--background-color);
@@ -158,6 +163,12 @@ img {
 .features {
   padding-top: 94px;
   padding-bottom: 94px;
+}
+.container .features-list {
+  display: flex;
+}
+.features-item:not(:last-child) {
+  margin-right: 30px;
 }
 .visually-hidden {
   position: absolute;
@@ -196,7 +207,12 @@ img {
   margin-bottom: 50px;
   width: 376px;
 }
-
+.employment-list {
+  display: flex;
+}
+.about-item + .about-item {
+  margin-left: 30px;
+}
 /*---------------------------section_4----------------------*/
 .team {
   padding-top: 94px;
@@ -205,6 +221,10 @@ img {
 }
 .team-list {
   background-color: var(--background-color);
+  display: flex;
+}
+.team-item + .team-item {
+  margin-left: 30px;
 }
 .team-header {
   font-weight: 700;
@@ -229,6 +249,12 @@ img {
 }
 .team-img {
   margin-bottom: 30px;
+}
+.team-container {
+  padding-bottom: 30px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 
 /*---------------------------portfolio---------------------*/
@@ -276,7 +302,7 @@ img {
   margin-bottom: 20px;
 }
 
-/*--------------------Footer----------------------------*/
+/*---------------footer--------------*/
 .footer {
   background-color: var(--dark-background);
   padding-top: 60px;
