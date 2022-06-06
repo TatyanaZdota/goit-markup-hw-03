@@ -278,14 +278,20 @@ img {
   padding: 6px 22px;
   display: inline-block;
 }
+.portfolio-list:not(:last-child) {
+  margin-right: 8px;
+}
 .button-item:hover,
 .button-item:focus {
   color: var(--background-color);
   background-color: var(--accent-color);
 }
 .button-list {
+  display: flex;
   margin-bottom: 50px;
+  justify-content: center;
 }
+
 .gallery-header {
   font-weight: 700;
   font-size: 18px;
@@ -293,6 +299,11 @@ img {
   letter-spacing: 0.06em;
   margin-bottom: 4px;
 }
+.gallery-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .gallery-paragraph {
   color: var(--dark-text);
   font-size: 16px;
